@@ -57,7 +57,7 @@ public class FeedBack extends Activity
 						String titlem = "[来自:" + Build.MODEL + "的反馈]";
 						String textm = "---[" + sdf.format(new Date()) + "]";
 
-						URL url = new URL("https://sc.ftqq.com/SCU35649Tec88ecad70ac8f2375a6c5a6e323c8425be9602402c5b.send?text=" + title + titlem + "&desp=" + text + textm);
+						URL url = new URL("https://sc.ftqq.com/这里是你的SCKEY哦.send?text=" + title + titlem + "&desp=" + text + textm);
 						HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
 						urlConnection.setRequestMethod("GET");
 						urlConnection.connect();
